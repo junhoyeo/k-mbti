@@ -1,7 +1,11 @@
 {
   "name": "k-mbti",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": "https://github.com/junhoyeo/k-mbti",
   "author": "Junho Yeo <hanaro0704@gmail.com>",
   "license": "MIT",
