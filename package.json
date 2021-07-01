@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/junhoyeo/k-mbti",
   "author": "Junho Yeo <hanaro0704@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hangul-js": "^0.2.6"
+  }
 }

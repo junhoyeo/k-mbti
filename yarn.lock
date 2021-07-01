@@ -3,9 +3,19 @@
 
 __metadata:
   version: 4
+  cacheKey: 7
+
+"hangul-js@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "hangul-js@npm:0.2.6"
+  checksum: afe3c3810d91ac5c05b2d6c491effe5ddd260556585afd7ce550a7608fa04b4324fcff943af0a674630a54e0dfffa77fcd213161917df6b9d5e658ef9d9802ea
+  languageName: node
+  linkType: hard
 
 "k-mbti@workspace:.":
   version: 0.0.0-use.local
   resolution: "k-mbti@workspace:."
+  dependencies:
+    hangul-js: ^0.2.6
   languageName: unknown
   linkType: soft
